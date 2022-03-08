@@ -14,6 +14,7 @@
                         <router-link class="nav-link" to="/" >
                             <a class="nav-link" id="alinkhome">Home</a>
                         </router-link>
+                        
                         <router-link class="nav-link" to="/about" >
                             <a class="nav-link" id="alinkab">About</a>
                         </router-link>
