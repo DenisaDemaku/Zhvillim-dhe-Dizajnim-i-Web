@@ -1,0 +1,13 @@
+body {
+    background-color: #111111;
+    color: #fff;
+}
+
+header{
+    -webkit-box-shadow: 0 4px 6px -6px #fff;
+  -moz-box-shadow: 0 4px 6px -6px #fff;
+  box-shadow: 0 4px 6px -6px #fff;
+}
+ul a{
+    color: white;
+}
