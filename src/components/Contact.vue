@@ -14,20 +14,48 @@
       <div>
         <p id="contactParagraph">For all enquiries, please write to us using the form below.</p>
       </div>
+      <form @submit="onSubmit">
       <div class="form-group">
-        <input type="text" class="form-control" placeholder="Name">
+        <input type="text" class="form-control" placeholder="Name" v-model="contacts.name">
       </div>
       <div class="form-group">
-        <input type="email" class="form-control" placeholder="Email">
+        <input type="email" class="form-control" placeholder="Email" v-model="contacts.email">
       </div>
       <div class="form-group">
-        <textarea class="form-control" rows="4" placeholder="Enter your concern"></textarea>
+        <textarea class="form-control" rows="4" placeholder="Enter your concern" v-model="contacts.description"></textarea>
       </div>
         <input type="submit" class="btn" value="Send" id="sendcontact">
+      </form>
     </div>
     </div>
 </div>
 </template>
+<script>
+/* eslint-disable */
+import axios from 'axios'
+export default {
+  name: 'CreateContacts',
+  data () {
+    return {
+      contacts:{},
+    }
+  },
+  methods: {
+    onSubmit () {
+      
+      axios.post(`http://localhost:4000/contacts`, this.contacts)
+      .then(response => {
+        //console.log(response);
+        this.$router.push({
+          name: 'home',
+          //params: { id: response.data._id }
+        })
+      })
+      
+    }
+  }
+}
+</script>
 
 <style scoped>
 .container{
