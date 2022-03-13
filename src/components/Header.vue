@@ -24,7 +24,7 @@
                                             <a class="nav-link" id="alinkusers">Users</a>
                                         </router-link>
                                         <router-link class="nav-link" to="/products" >
-                                            <a class="nav-link" id="alinkcars">M. Products</a>
+                                            <a class="nav-link" id="alinkproducts">M. Products</a>
                                         </router-link>
                                          <router-link class="nav-link" to="/reservations" >
                                             <a class="nav-link" id="alinkreserve">Order</a>
@@ -161,8 +161,8 @@ export default {
       if(document.getElementById("alinkusers") != null){
         document.getElementById("alinkusers").style.color = "white";
       }
-      if(document.getElementById("alinkcars") != null){
-        document.getElementById("alinkcars").style.color = "white";
+      if(document.getElementById("alinkproducts") != null){
+        document.getElementById("alinkproducts").style.color = "white";
       }
       if(document.getElementById("alinkreserve") != null){
         document.getElementById("alinkreserve").style.color = "white";
@@ -225,7 +225,7 @@ export default {
         document.getElementById("alinkusers").style.color = "black";
       }
       if(document.getElementById("alinks") != null){
-        document.getElementById("alinkcars").style.color = "black";
+        document.getElementById("alinkproducts").style.color = "black";
       }
       if(document.getElementById("alinkreserve") != null){
         document.getElementById("alinkreserve").style.color = "black";
