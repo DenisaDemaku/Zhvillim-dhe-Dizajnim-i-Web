@@ -224,7 +224,7 @@ export default {
       if(document.getElementById("alinkusers") != null){
         document.getElementById("alinkusers").style.color = "black";
       }
-      if(document.getElementById("alinkcars") != null){
+      if(document.getElementById("alinks") != null){
         document.getElementById("alinkcars").style.color = "black";
       }
       if(document.getElementById("alinkreserve") != null){

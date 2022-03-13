@@ -1,4 +1,4 @@
-# medical-products
+# MedicalProducts
 
 ## Project setup
 ```

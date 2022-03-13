@@ -1,0 +1,11 @@
+______________________________________________________
+| Emri dhe mbiemri  |     Email           |   ID       |
+|___________________|_____________________|____________|
+| 1.Denisë Demaku   | dd47597@ubt-uni.net | 192047597  |
+| 2.Era Salihu      | es48507@ubt-uni.net | 192048507  |
+| 3.Liza Pira       | lp47657@ubt-uni.net | 192047657  |
+|___________________|_____________________|____________|
+
+----------------------Linku i GIT------------------------
+
+https://github.com/DenisaDemaku/Zhvillim-dhe-Dizajnim-i-Web
